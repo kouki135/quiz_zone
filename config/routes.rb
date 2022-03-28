@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :quizzes, only: :index
+  root to: "quizzes#index"
 end
